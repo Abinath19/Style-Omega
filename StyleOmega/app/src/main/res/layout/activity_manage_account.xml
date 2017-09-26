@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.abinath.styleomega.activities.ManageAccountActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/update_logo"/>
+
+
+    <TextView
+        android:id="@+id/nameLbl"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:text="Name"
+        android:textColor="@color/colorText"/>
+
+    <EditText
+        android:id="@+id/nameTxt"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/passwordLbl"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Password"
+        android:textColor="@color/colorText"/>
+
+    <EditText
+        android:id="@+id/passwordTxt"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/emailLbl"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Email"
+        android:textColor="@color/colorText"/>
+
+    <EditText
+        android:id="@+id/emailTxt"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/addressLbl"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Address"
+        android:textColor="@color/colorText"/>
+
+    <EditText
+        android:id="@+id/addressTxt"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:id="@+id/phoneNumberLbl"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Phone Number"
+        android:textColor="@color/colorText"/>
+
+    <EditText
+        android:id="@+id/phoneNumberTxt"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:textColor="@color/colorText"/>
+
+    <Button
+        android:id="@+id/updateButton"
+        android:textColor="@color/colorButton"
+        android:background="@color/colorTextHint"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:onClick="updateAccount"
+        android:text="Update Details"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
